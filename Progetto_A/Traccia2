@@ -1,0 +1,6 @@
+Sistema di Pagamenti
+ Interfaccia MetodoPagamento con paga(double importo).
+ Classi che la implementano: CartaCredito, PayPal, Bonifico.
+ Classe Ordine con lista di prodotti (nome, prezzo).
+ Metodo per calcolare il totale e richiedere il pagamento usando un MetodoPagamento (polimorfismo).
+ Nel main, creare un ordine e pagarlo con diversi metodi.
