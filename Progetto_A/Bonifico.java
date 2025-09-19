@@ -1,4 +1,4 @@
-package Progetto_A;
+package SistemaPagamenti;
 
 public class Bonifico implements MetodoPagamento {
     @Override
@@ -6,3 +6,4 @@ public class Bonifico implements MetodoPagamento {
         System.out.println("Pagamento di " + importo + "€ con Bonifico.");
     }
 }
+
